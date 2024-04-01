@@ -16,3 +16,10 @@ SECRET_TOKEN = ""
 JWT_SECRET=''
 PORT = 3000
 ````
+### Steps to run locally
+ ````bash
+npm install
+tsc -b
+node dist/db/db.js #to create tables in DB
+npm run dev
+````
